@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Navbar = () => {
     return (
         <div>
             <div className="grid grid-cols-10 text-4xl font-bold text-teal-200">
@@ -19,4 +19,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Navbar
