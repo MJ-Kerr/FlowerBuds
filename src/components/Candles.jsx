@@ -1,10 +1,15 @@
 import React from 'react'
-import Construction from './img/Construction.png'
+// import Construction from './img/Construction.png'
+import Background from './img/Background.JPEG';
 
 const Candles = () => {
+    const bgStyle = {
+        backgroundImage: `url(${Background})`,
+    };
+
     return (
-        <div className='flex justify-center'>
-            <img src={Construction} alt="Coming Soon" />
+        <div className="bg-cover bg-center h-screen flex items-center justify-center"
+            style={bgStyle}>
         </div>
     )
 }
