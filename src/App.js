@@ -10,7 +10,7 @@ import Podcast from './components/Podcast';
 
 function App() {
   return (
-    <div className="App bg-teal-800">
+    <div className="App bg-teal-800 font-custom">
       <Navbar />
       <Routes>
         <Route path='/' element={<Dash />}></Route>

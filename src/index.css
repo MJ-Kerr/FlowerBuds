@@ -10,3 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
 }
+
+@font-face {
+  font-family: "Cheque-Black";
+  src: local("Cheque-Black"),
+    url("./components/fonts/Cheque/Commercial/OTF/Cheque-Black.otf") format("truetype");
+  font-weight: bold;
+}

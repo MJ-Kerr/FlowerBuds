@@ -2,7 +2,7 @@ import React from 'react';
 import Background from './img/Background.JPEG';
 import ProductCard from './ProductCard';
 import About from './About';
-import Logo from './img/Logo.png'
+// import Logo from './img/Logo.png'
 
 const Dash = () => {
     const bgStyle = {

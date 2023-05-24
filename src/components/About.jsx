@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="p-6 text-pink-900 backdrop-blur-sm rounded-lg shadow-md backdrop-hue-rotate-180">
-            <p className="text-[50px] font-bold mb-4">Welcome to FlowerBuds!</p>
+        <div className="p-6 text-pink-900 backdrop-blur-sm rounded-lg shadow-md backdrop-hue-rotate-180 ">
+            <p className="text-[50px] font-bold mb-4 font-custom">Welcome to FlowerBuds!</p>
             <p className="mb-4 text-xl">We're thrilled to have you here, and we want to thank you for taking the time to explore our boutique home goods and apparel company.</p>
             <p className="mb-4 text-xl">Our story began with two childhood friends in Dallas, Texas, who wanted to create something special that captures the essence of friendship and cherished moments.</p>
 

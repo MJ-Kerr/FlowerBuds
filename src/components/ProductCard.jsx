@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Typography, Button } from "@material-tailwind/react";
+import { Card, Typography } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
 import Candle from './img/candle.png'
 import Podcast from './img/Podcast.png'

@@ -15,7 +15,14 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+
+    extend: {
+      FontFamily: {
+        custom: ["./client/src/components/fonts/Cheque/Commercial/OTF/Cheque-Black.otf", 'sans-serif']
+
+
+      }
+    },
   },
   plugins: [],
 });
