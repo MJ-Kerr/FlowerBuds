@@ -1,5 +1,6 @@
 import React from 'react'
 import Background from './img/Background.JPEG';
+// import coming_soon from './img/coming_soon.png'
 import Construction from './img/Construction.png'
 
 const Podcast = () => {

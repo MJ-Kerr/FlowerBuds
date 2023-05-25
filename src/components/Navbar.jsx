@@ -29,6 +29,10 @@ const Navbar = () => {
             title: 'Bawlers',
             link: '/bawlers',
         },
+        {
+            title: 'Podcasts',
+            link: '/podcast',
+        }
     ];
 
     return (
