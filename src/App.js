@@ -7,10 +7,11 @@ import Candles from './components/Candles'
 import Bawlers from './components/Bawlers';
 import About from './components/About';
 import Podcast from './components/Podcast';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App bg-teal-800 font-custom">
+    <div className="App bg-teal-800">
       <Navbar />
       <Routes>
         <Route path='/' element={<Dash />}></Route>
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/podcast' element={<Podcast />}></Route>
       </Routes>
+      <Footer />
     </div >
   );
 }

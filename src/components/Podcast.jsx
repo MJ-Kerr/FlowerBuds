@@ -5,12 +5,12 @@ import Construction from './img/Construction.png'
 
 const Podcast = () => {
     const bgStyle = {
-        backgroundImage: `url(${Background})`
+        backgroundImage: `url(${Background})`,
+        backgroundAttachment: 'fixed',
     };
 
     return (
-        <div className="bg-cover bg-center h-screen flex items-center justify-center"
-            style={bgStyle}>
+        <div className="bg-cover bg-center h-screen flex flex-col items-center overflow-auto mt-4" style={bgStyle}>
             <img src={Construction} alt="Oops" />
         </div>
     )

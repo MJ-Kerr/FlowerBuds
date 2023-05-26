@@ -2,18 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Smokum'
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-}
-
-@font-face {
-  font-family: "Cheque-Black";
-  src: local("Cheque-Black"),
-    url("./components/fonts/Cheque/Commercial/OTF/Cheque-Black.otf") format("truetype");
-  font-weight: bold;
+@layer base {
+  html {
+    font-family: 'Caveat', cursive;
+  }
 }

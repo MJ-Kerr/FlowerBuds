@@ -18,9 +18,6 @@ module.exports = withMT({
 
     extend: {
       FontFamily: {
-        custom: ["./client/src/components/fonts/Cheque/Commercial/OTF/Cheque-Black.otf", 'sans-serif']
-
-
       }
     },
   },
