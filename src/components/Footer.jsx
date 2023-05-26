@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 import LogoBtn from './img/LogoBtn.png'
 
 const Footer = () => {
@@ -23,7 +24,9 @@ const Footer = () => {
             <div className="mx-auto w-full max-w-7xl">
                 <div className="grid grid-cols-1 justify-around md:grid-cols-2">
                     <Typography className="mb-6">
-                        <img src={LogoBtn} alt="Logo" />
+                        <Link to="/backend">
+                            <img src={LogoBtn} alt="Logo" />
+                        </Link>
                     </Typography>
                     <div className="grid grid-cols-3 justify-between gap-4">
                         {LINKS.map(({ title, items }) => (
@@ -33,7 +36,7 @@ const Footer = () => {
                                 </Typography>
                                 {items.map((link) => (
                                     <li key={link}>
-                                        <Typography as="a" href="#" className="py-3 font-normal text-white transition-colors hover:text-deep-purple-800">
+                                        <Typography as="a" href="/" className="py-3 font-normal text-white transition-colors hover:text-deep-purple-800">
                                             {link}
                                         </Typography>
                                     </li>

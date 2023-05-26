@@ -68,7 +68,7 @@ const Navbar = () => {
                 <div className='flex items-center justify-between h-16'>
                     {/* left side of the navbar */}
                     <div className='flex items-center'>
-                        <Link to='/' className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold text-white'>
+                        <Link to='/' className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold  text-white  hover:text-deep-purple-800'>
                             FlowerBuds
                         </Link>
                     </div>
@@ -76,17 +76,14 @@ const Navbar = () => {
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4'>
                             {navlinks.map((link, index) => (
-                                <Link to={link.link} key={index} className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500  text-white' >
+                                <Link to={link.link} key={index} className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500  text-white  hover:text-deep-purple-800' >
                                     {link.title}
                                 </Link>
                             ))}
-                            <button onClick={openCartHandler} className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500'>
+                            <button onClick={openCartHandler} className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500  text-white  hover:text-deep-purple-800'>
                                 Cart
                             </button>
-                            <button
-                                onClick={openLoginDrawerHandler}
-                                className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500'
-                            >
+                            <button onClick={openLoginDrawerHandler} className='text-fuchsia-950 hover:bg-teal-800 px-3 py-2 rounded-md text-xl font-bold transition-all duration-500  text-white  hover:text-deep-purple-800' >
                                 Login
                             </button>
                         </div>
@@ -103,7 +100,7 @@ const Navbar = () => {
                 {/* Login Drawer */}
                 <Drawer placement="bottom" open={openLoginDrawer} onClose={closeLoginDrawerHandler} className="p-4" >
                     <div className="mb-6 flex items-center justify-between">
-                        <Typography variant="h5" color="blue-gray">
+                        <Typography variant="h5">
                             Login
                         </Typography>
                         <IconButton variant="text" color="blue-gray" onClick={closeLoginDrawerHandler} >
@@ -132,7 +129,7 @@ const Navbar = () => {
                 {/* Cart Drawer */}
                 <Drawer placement="right" open={openCart} onClose={closeCartHandler} className="p-4">
                     <div className="mb-6 flex items-center justify-between">
-                        <Typography variant="h5" color="blue-gray">
+                        <Typography variant="h5">
                             Cart
                         </Typography>
                         <IconButton variant="text" color="blue-gray" onClick={closeCartHandler}>
