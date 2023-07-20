@@ -1,3 +1,19 @@
+# Screenshots for FlowerBuds App
+##Home Page
+![FBSC4](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/d4b8b6ab-9a39-47be-8c5a-30a18247bd7d)
+##Bawlers Apparel
+![FBSC3](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/6ff45da4-7b69-4721-869c-bb6a985bbb29)
+## FlowerBuds Candles
+![FBSC2](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/02fd16b0-490e-4bee-9452-fcd8c016b96b)
+## Login in slide up from bottom
+![FBSC](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/edcf9fdf-391f-4940-aeb5-4bcf6e78c212)
+## Cart slide from right
+![Screenshot 2023-07-20 at 1 21 17 PM](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/c0d167a4-39b9-4fff-bc03-71b6ac6a6085)
+## Footer
+![FBSC5](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/0f6a9172-a764-4ab2-9742-ebb28eea5f5e)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
