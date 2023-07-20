@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -5,7 +6,7 @@ import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 // import Candles from './Candles';
 
-const Navbar = () => {
+const Navbar = (props) => {
     // for login drawer
     const [openLoginDrawer, setOpenLoginDrawer] = useState(false);
     // for hamburger menu
@@ -23,6 +24,9 @@ const Navbar = () => {
         updatedCartItems.splice(index, 1);
         setCartItems(updatedCartItems);
     };
+    // const addToCart = (product) => {
+    // setCartItems((prevItems) => [...prevItems, product]);
+    // };
 
 
     const openCartHandler = () => {
@@ -140,15 +144,15 @@ const Navbar = () => {
                         <button
                             onClick={removeAllItems}
                             className="text-red-500 mt-4">Remove Items</button>
-                        {cartItems.map((item, index) => (
+                        {cartItems.map((Product, index) => (
                             <div key={index} className="flex items-center space-x-4">
-                                <span className="text-lg font-medium">{item.name}</span>
-                                <span className="text-gray-500">${item.price}</span>
+                                <span className="text-lg font-medium">{Product.name}</span>
+                                <span className="text-gray-500">${Product.Price}</span>
                                 <button onClick={() => removeFromCart(index)} className="text-red-500">Remove</button>
                             </div>
                         ))}
                     </div>
-                    {/* <Candles addToCart={addToCart} /> */}
+
                 </Drawer>
 
 

@@ -1,5 +1,4 @@
 import './App.css';
-// import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Dash from './components/Dash';
@@ -11,6 +10,7 @@ import Footer from './components/Footer';
 import AddProduct from './components/AddProduct';
 
 function App() {
+
   return (
     <div className="App bg-teal-800">
       <Navbar />
