@@ -1,7 +1,7 @@
 # Screenshots for FlowerBuds App
-##Home Page
+## Home Page
 ![FBSC4](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/d4b8b6ab-9a39-47be-8c5a-30a18247bd7d)
-##Bawlers Apparel
+## Bawlers Apparel
 ![FBSC3](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/6ff45da4-7b69-4721-869c-bb6a985bbb29)
 ## FlowerBuds Candles
 ![FBSC2](https://github.com/MJ-Kerr/FlowerBuds/assets/118866269/02fd16b0-490e-4bee-9452-fcd8c016b96b)
